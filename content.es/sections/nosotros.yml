@@ -1,0 +1,36 @@
+title: Nosotros
+subtitle: ¡Bienvenido a la Clínica Dental Susana Navarro!
+icon: circle-info
+color: white
+gradient: main-light
+size: md
+more:
+  opacity: 20
+rows:
+- type: columns
+  design:
+    num: 2
+    align_y: center
+    uppercase: true
+    underline: true
+  items:
+  - order: 2
+    bg: sala-tratamiento.jpg
+    more:
+      align_y: stretch
+  - order: 1
+    description: |
+      Donde tu salud bucal es nuestra prioridad. Somos un equipo comprometido, dedicado a ofrecer un trato cercano y de confianza.
+
+      Atendemos a pacientes de todas las edades, brindando tratamientos personalizados, desde prevención hasta restauración. Utilizamos tecnología avanzada para diagnósticos precisos y soluciones efectivas.
+
+      Nuestro equipo altamente cualificado se mantiene actualizado con las últimas innovaciones en odontología. Cuidamos a nuestros pacientes con cariño y dedicación, porque tu sonrisa es nuestro mayor logro.
+
+      En nuestra clínica, creemos en la importancia de establecer relaciones a largo plazo con nuestros clientes, porque queremos verte sonreír en cada visita. Nuestra mayor recompensa y fuente de satisfacción es ver esa sonrisa brillante en tu rostro.
+
+      Descubre cómo podemos transformar tu salud bucal y recupera la confianza en tu sonrisa. Estamos aquí para acompañarte en cada paso.
+
+      ! Piensa en ti, tu sonrisa es para toda la vida ¡
+    more:
+      align: left
+      align_xl: right

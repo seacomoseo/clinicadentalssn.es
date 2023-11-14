@@ -1,0 +1,52 @@
+title: ¿Por qué Nosotros?
+icon: star-half
+color: white
+gradient: main-light
+more:
+  container_opacity: 20
+rows:
+- type: steps
+  design:
+    underline: true
+  items:
+  - title: Enfoque Personalizado
+    icon: heart-circle-check
+    description: |
+      Priorizamos tu bienestar y comodidad. 
+
+      Tratamientos adaptados a tus necesidades.
+
+      Elegimos cuidadosamente los materiales de la más alta calidad, garantizando que tu sonrisa perdure en el tiempo.
+  - title: Tecnología Avanzada
+    icon: circle-bolt
+    description: |
+      Equipamiento de última generación.
+
+      Resultados precisos y comodidad.
+
+      Tratamientos innovadores disponibles.
+  - title: Atención Integral
+    icon: message-code
+    description: |+
+      Especialistas en diversas áreas.
+
+      Variedad de servicios en un solo lugar.
+
+      Coordinación de atención para tus necesidades.
+
+
+
+
+  - title: Ambiente Acogedor y Sereno
+    icon: house-chimney-heart
+    description: |+
+      Nuestras instalaciones ofrecen un entorno tranquilo y acogedor.
+
+      Proporcionamos comodidades de alta calidad para tu comodidad.
+
+      Nuestro equipo de profesionales se caracteriza por su calidez y empatía.
+
+
+
+
+...

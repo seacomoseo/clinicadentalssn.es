@@ -1,0 +1,9 @@
+color: main-dark
+gradient: main-light
+description: |
+  - icon-copyright      {{< internal-link index >}}
+  - icon-scale-balanced {{< internal-link legal >}}
+  - icon-shield-keyhole {{< internal-link privacy >}}
+  - icon-cookie-bite    {{< internal-link cookies >}}
+  - icon-seacomoseo     Hecho con icon-heart por [seacomoseo.com](https://seacomoseo.com/)
+  {.list-inline}

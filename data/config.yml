@@ -1,0 +1,40 @@
+title: Clínica Dental Susana Navarro
+description: ''
+logo: icon.svg
+legal_name: Susana Navarro Garrido
+legal_dni: 48452064B
+legal_email: clinicasng@gmail.com
+legal_location: Avenida Juan Pablo II, 2, bajo 2  30130 Beniel (Murcia 0)
+country: España
+location_type:
+- Dentist
+alternate_name:
+- Clínica Susana Navarro
+- SSN Dental
+- Clínica SSN Dental
+- SSN Clínica Dental
+price_range: €€
+google_analytics: G-M4LN967FEN
+google_site_verification: ''
+google_file_verification: google7467d923cbb3eb4c.html
+disqus: ''
+cookies_legal: false
+analytics_pagespeed: true
+process_all_images: false
+cms: true
+cms_editorial_workflow: false
+development: true
+custom_code:
+  html_head:
+    code: ''
+    lang: html
+  html_body:
+    code: ''
+    lang: html
+  css:
+    code: ''
+  js:
+    code: ''
+    lang: javascript
+social:
+- link: https://www.instagram.com/susananavarrogarrido/

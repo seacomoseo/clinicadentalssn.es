@@ -1,0 +1,32 @@
+title: Instalaciones
+subtitle: ¡ Bienvenido a nuestra Clínica !
+icon: house-chimney-medical
+bg: sala-de-espera.jpg
+color: white
+more:
+  opacity: 50
+rows:
+- type: gallery
+  design:
+    max: 99
+    num: 3
+    grayscale: false
+    alt: true
+    wrap: true
+    gap: true
+    cover: true
+    link: ''
+    ofuscate: false
+    font_alt: false
+  images:
+  - cepillos.jpg
+  - acidohilauronico.jpg
+  - sala-de-espera.jpg
+  - susanaimagen-1-.jpg
+  - carillas-composite.jpg
+  - sala-tratamientos-dos.jpg
+  - carillas-porcelana.jpg
+  - recepcion.jpg
+  - mordida-abierta.jpg
+  - productos.jpg
+  - desgaste.jpg

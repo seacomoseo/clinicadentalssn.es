@@ -1,0 +1,59 @@
+title: Tratamientos
+subtitle: ¿Como podemos ayudarte?
+icon: tooth
+image: ''
+bg: ''
+color: main-dark
+size: md
+more:
+  opacity: 40
+rows:
+- type: columns
+  design:
+    pill: true
+    num: 4
+    color: white
+    ratio: 1x1
+    gradient: main-light
+    border: ''
+  items:
+  - title: Odontología Conservadora
+    image: mordida-abierta.jpg
+    link: '#tratamiento-odontologia-conservadora'
+    description: '
+
+
+
+      '
+  - title: Endodoncia
+    link: '#tratamiento-endodoncia'
+    description: '
+
+
+
+      '
+    bg: ''
+    image: endodoncia.jpg
+  - title: Periodoncia
+    link: '#tratamiento-periodoncia'
+    description: |
+      dfgdgh
+    image: periodoncia.jpg
+  - title: Ortodoncia
+    description: |
+      sdfsdf
+  - title: Implantología
+    description: |
+      fghdfgdfg
+  - title: Ortopediatría
+    description: |
+      fgfgdfg
+  - title: Estética Dental
+    description: |
+      fdgdfg
+  - title: Prótesis
+    description: |
+      fgfdg
+  - title: Ácido Hialurónico
+    description: |
+      DGFDFG

@@ -1,0 +1,14 @@
+image: logo-w.svg
+bg: susanaimagen-1-.jpg
+color: main-dark
+gradient: main-light
+description: |
+  [btn icon-plus Más](#principal)
+more:
+  full_screen: true
+  image_min: 18
+  image_max: 20
+  parallax: true
+  gradient_type: linear-r
+  button: alt
+  opacity: 40
