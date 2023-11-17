@@ -16,4 +16,4 @@ jobs:
         username: ssndental
         spacename: ssndental-backup
         repository: ssndental.es
-        password: _
+        password: ${{ secrets.BITBUCKET_TOKEN }}
