@@ -9,26 +9,6 @@
 ### Repositories
 
 
-#### Backup
-
-- [Github new acount](https://github.com/join)
-  - User name: `ssndental`
-  - Email: `ssndental@seacomoseo.com`
-  - Password: `var_pass`
-  - Verify and exit
-- [New repository](https://github.com/new)
-  - `Repository name` = `ssndental.es`
-  - `Private` = check
-  - `Create repository`
-- [Settings](https://github.com/ssndental/ssndental.es/settings) ⏩ check `Include Git LFS objects in archives`
-- [Generate new token](https://github.com/settings/tokens/new)
-  - `Note` = `gitlab-mirror`
-  - `Expiration` = `No expiration`
-  - `Select scopes` = `repo`
-  - `Generate token`
-  - Copy token (`ghp_**********`) for `Mirror repository` in `Password`
-
-
 #### Main
 
 - [Gitlab new acount](https://gitlab.com/users/sign_up)

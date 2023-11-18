@@ -1,19 +1,17 @@
-name: Mirror to Bitbucket
-on: [push]
+name: GitlabSync
+on:
+  - push
+  - delete
 jobs:
-  mirror:
+  sync:
     runs-on: ubuntu-latest
+    name: Git Repo Sync
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+    - uses: actions/checkout@v3
       with:
         fetch-depth: 0
-        lfs: true
-    - run: git config lfs.allowincompletepush true
-    - name: Push
-      uses: heussd/mirror-to-bitbucket-github-action@v2
+    - uses: wangchucheng/git-repo-sync@v0.1.0
       with:
-        username: ssndental
-        spacename: ssndental-backup
-        repository: ssndental.es
-        password: ${{ secrets.BITBUCKET_TOKEN }}
+        target-url: https://gitlab.com/${{ github.repository }}.git
+        target-username: ${{ github.actor }}
+        target-token: ${{ secrets.GITLAB_TOKEN }}
