@@ -6,6 +6,7 @@ params:
   git_url: https://github.com/seacomoseo/ssndental.es
   netlify_name: ssndental
   netlify_id: 30021f24-3d47-42ac-8b61-fe843fed3414
+  hook: NjUzMzI1NmZiOWFiZmMxM2NhOWJmNjlh
   drive_link: https://drive.google.com/file/d/1h-1l3oVH6XuxqQZKEXH_y_zfMYGOw2TV
   drive_mails: susananavarrogarrido@gmail.com, susan_ng3@hotmail.com
 defaultContentLanguage: es

@@ -1,9 +1,27 @@
 color: main-dark
 gradient: main-light
 description: |
-  - icon-copyright      {{< internal-link index >}}
-  - icon-scale-balanced {{< internal-link legal >}}
-  - icon-shield-keyhole {{< internal-link privacy >}}
-  - icon-cookie-bite    {{< internal-link cookies >}}
-  - icon-seacomoseo     Hecho con icon-heart por [seacomoseo.com](https://seacomoseo.com/)
+  - icon-copyright        {{< internal-link index >}}
+  - icon-scale-balanced   {{< internal-link legal >}}
+  - icon-shield-keyhole   {{< internal-link privacy >}}
+  - icon-cookie-bite      {{< internal-link cookies >}}
+  - icon-universal-access {{< internal-link accesibilidad >}}
   {.list-inline}
+  <!--
+  - icon-seacomoseo     Hecho con icon-heart por [seacomoseo.com](https://seacomoseo.com/)
+  -->
+rows:
+- type: columns
+  design:
+    num: 5
+    num_xs: true
+  items:
+  - span: 5
+    description: |
+      FINANCIADO POR LA UNIÓN EUROPEA CON EL PROGRAMA KIT DIGITAL, POR LOS FONDOS NEXT GENERATION EU DEL MECANISMO DE PLAN DE RECUPERACIÓN Y RESILENCIA
+      {.review__subtitle}
+  - image: kit-digital/gobierno.svg
+  - image: kit-digital/prtr.svg
+  - image: kit-digital/red-es.svg
+  - image: kit-digital/ue.svg
+  - image: kit-digital/kd.svg
