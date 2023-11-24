@@ -1,9 +1,9 @@
-baseURL: https://ssndental.es
+baseURL: https://clinicadentalssn.es
 Paginate: 24
 buildFuture: false
 theme: [sansoul]
 params:
-  git_url: https://github.com/seacomoseo/ssndental.es
+  git_url: https://github.com/seacomoseo/clinicadentalssn.es
   netlify_name: ssndental
   netlify_id: 30021f24-3d47-42ac-8b61-fe843fed3414
   hook: NjUzMzI1NmZiOWFiZmMxM2NhOWJmNjlh

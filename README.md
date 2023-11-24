@@ -1,6 +1,6 @@
-# ssndental.es
+# clinicadentalssn.es
 
-[![ssndental.es](/assets/media/logo.png)](https://ssndental.es/)
+[![clinicadentalssn.es](/assets/media/logo.png)](https://clinicadentalssn.es/)
 
 
 ## STEPS
@@ -15,30 +15,30 @@
   - User name: `ssndental`
   - Email: `ssndental@seacomoseo.com`
   - Password: `var_pass`
-  - Note in `🔥 SanSoul/ssndental.es.md`
+  - Note in `🔥 SanSoul/clinicadentalssn.es.md`
   - Verify
   - Role: `Other`
   - Check `Just me` and `Join a project`
   - `Continue`
 - New or fork project
   - If [New project](https://gitlab.com/projects/new#blank_project)
-  - If [Fork this project](https://gitlab.com/ssndental/ssndental.es/-/forks/new)
-  - `Project name` and `Project slug` = `ssndental.es`
+  - If [Fork this project](https://gitlab.com/ssndental/clinicadentalssn.es/-/forks/new)
+  - `Project name` and `Project slug` = `clinicadentalssn.es`
   - `Visibility level` = `Private`
   - `Initialize repository with a README` = uncheck
-- [Mirror repository](https://gitlab.com/ssndental/ssndental.es/-/settings/repository#js-push-remote-settings)
+- [Mirror repository](https://gitlab.com/ssndental/clinicadentalssn.es/-/settings/repository#js-push-remote-settings)
   - `Add new`
-  - `Git repository URL` = `https://ssndental@github.com/ssndental/ssndental.es.git`
+  - `Git repository URL` = `https://ssndental@github.com/ssndental/clinicadentalssn.es.git`
   - `Password` = prev token from Github (`ghp_**********`)
   - `Mirror repository`
-- [Members](https://gitlab.com/ssndental/ssndental.es/-/project_members) ⏩ Add your email with role `Maintainer`
+- [Members](https://gitlab.com/ssndental/clinicadentalssn.es/-/project_members) ⏩ Add your email with role `Maintainer`
 - Icons
-  - [General Settings](https://gitlab.com/ssndental/ssndental.es/edit) ⏩ `Project avatar`
+  - [General Settings](https://gitlab.com/ssndental/clinicadentalssn.es/edit) ⏩ `Project avatar`
   - [Profile](https://gitlab.com/-/profile) ⏩ `Public avatar`
 - [Preferences](https://gitlab.com/-/profile/preferences)
   - `Language` `Spanish`
   - `First day of the week` `Moonday`
-- [Repository](https://gitlab.com/ssndental/ssndental.es) ⏩ `Clone ⏩ Visual Studio Code (HTTPS)` ⏩ select sansoul folder (not new folder)
+- [Repository](https://gitlab.com/ssndental/clinicadentalssn.es) ⏩ `Clone ⏩ Visual Studio Code (HTTPS)` ⏩ select sansoul folder (not new folder)
 
 
 ### Hosting
@@ -55,7 +55,7 @@
 - `Skip personalization ⏩ New site from Git ⏩ Gitlab ⏩ Authorize ⏩ Select repo ⏩ Deploy site ⏩ Site settings`
   - `Change site name ⏩ ssndental` and copy in `data/config.yml ⏩ netlify_name`
   - Copy `API ID` in `data/config.yml ⏩ netlify_id`
-  - [Build hooks](https://app.netlify.com/sites/ssndental/settings/deploys#build-hooks) with = `build` name ⏩ copy and paste in `ssndental.es/ssndental.es.md` and [spreadsheet projects](https://docs.google.com/spreadsheets/d/1QIeT5VfUuXC3momIScZPf8ZPahV23tXVNshcf6DRipA/).
+  - [Build hooks](https://app.netlify.com/sites/ssndental/settings/deploys#build-hooks) with = `build` name ⏩ copy and paste in `clinicadentalssn.es/clinicadentalssn.es.md` and [spreadsheet projects](https://docs.google.com/spreadsheets/d/1QIeT5VfUuXC3momIScZPf8ZPahV23tXVNshcf6DRipA/).
 - [Profile Avatar](https://app.netlify.com/user/settings#profile) ⏩ `Edit settings` ⏩ `Avatar`
 - [Connected Accounts](https://app.netlify.com/user/settings#connected-accounts) ⏩ `Edit settings` ⏩ `GitLab`: `Connect`
 
@@ -99,14 +99,14 @@
 
 - Star Git LFS: `git lfs install`
 - If new project (not fork):
-  - Copy [ssndental.es project files](https://github.com/ssndental/ssndental.es)
+  - Copy [clinicadentalssn.es project files](https://github.com/ssndental/clinicadentalssn.es)
   - `git submodule add https://github.com/lorensansol/sansoul.git themes/sansoul`
 - Else if fork:
   - Download submódule theme files: `git submodule update --init --recursive`
 - If you want use svg emojies:
   - `git submodule add https://github.com/lorensansol/sansoul-emojis.git layouts/partials/svg/emojis`
 - Now you can see the run project in the browser with the `do server` comand
-- `README.md` ⏩ edit baseURL ("ssndental.es") + delete steps bit by bit
+- `README.md` ⏩ edit baseURL ("clinicadentalssn.es") + delete steps bit by bit
 - Design
   - You can edit any file with the same structure of theme sansoul
   - GENERAL
@@ -176,10 +176,10 @@
   - `Add custom domain`
   - `Check DNS configuration` Copy
   - Add `DNS Records` copied from Netlify to Domain gestor:
-    - From: `ssndental.es`
+    - From: `clinicadentalssn.es`
       DNS Record: `ALIAS`, `ANAME` or `flattened CNAME`
       To: `apex-loadbalancer.netlify.com`
-    - From: `ssndental.es`
+    - From: `clinicadentalssn.es`
       DNS Record: `A`
       To: `75.2.60.5`
     - From: `www`
@@ -191,10 +191,10 @@
 - If Cloudflare Pages
   - [Custom domains](https://dash.cloudflare.com/?to=/:account/pages/view/ssndental/domains)
   - `Set up a custom domains`
-  - `ssndental.es`
+  - `clinicadentalssn.es`
   - `Continue`
   - `Activate domain` (if `Begin DNS transfer` end)
-  - Repeat with `www.ssndental.es`
+  - Repeat with `www.clinicadentalssn.es`
   - ...........................................................
 
 
@@ -204,7 +204,7 @@
   - Don't need configure nothing! Build like you want in local or with CMS
   - [`Netlify ⏩ Site ⏩ Forms ⏩ Form Notifications`](https://app.netlify.com/sites/ssndental/settings/forms#form-notifications) ⏩ `Add notification ⏩ Email notification ⏩ Email to Notify`
     - `Email to notify` = Emails of collaborators that want receive submissions
-    - `Custom email subject line` = `Formulario de contacto de ssndental.es`
+    - `Custom email subject line` = `Formulario de contacto de clinicadentalssn.es`
     - `Save`
   - Submissions: [`Netlify site ⏩ Forms`](https://app.netlify.com/sites/ssndental/forms)
 - If Cloudflare Workers
@@ -260,7 +260,7 @@
 
 ##### Services Layout
 
-1. [Servicios ssndental.es](https://drive.google.com/file/d/1trq28fMfEVwoZOk4ue0tJzAJDZtj64BK) ⏩ `File ⏩ Make a copy` ⏩ Select client directory.
+1. [Servicios clinicadentalssn.es](https://drive.google.com/file/d/1trq28fMfEVwoZOk4ue0tJzAJDZtj64BK) ⏩ `File ⏩ Make a copy` ⏩ Select client directory.
 1. Change the info.
 1. `Share` ⏩ Add emails of collaborators with `Editor` permission.
 
@@ -270,7 +270,7 @@
 Send to all collaborators next:
 
 ```
-*ENTREGA WEB ssndental.es:* https://seacomoseo.com/entrega/
+*ENTREGA WEB clinicadentalssn.es:* https://seacomoseo.com/entrega/
 ```
 
 ## GADS
