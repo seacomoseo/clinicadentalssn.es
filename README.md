@@ -9,92 +9,6 @@
 ### Repositories
 
 
-#### Main
-
-- [Gitlab new acount](https://gitlab.com/users/sign_up)
-  - User name: `ssndental`
-  - Email: `ssndental@seacomoseo.com`
-  - Password: `var_pass`
-  - Note in `🔥 SanSoul/clinicadentalssn.es.md`
-  - Verify
-  - Role: `Other`
-  - Check `Just me` and `Join a project`
-  - `Continue`
-- New or fork project
-  - If [New project](https://gitlab.com/projects/new#blank_project)
-  - If [Fork this project](https://gitlab.com/ssndental/clinicadentalssn.es/-/forks/new)
-  - `Project name` and `Project slug` = `clinicadentalssn.es`
-  - `Visibility level` = `Private`
-  - `Initialize repository with a README` = uncheck
-- [Mirror repository](https://gitlab.com/ssndental/clinicadentalssn.es/-/settings/repository#js-push-remote-settings)
-  - `Add new`
-  - `Git repository URL` = `https://ssndental@github.com/ssndental/clinicadentalssn.es.git`
-  - `Password` = prev token from Github (`ghp_**********`)
-  - `Mirror repository`
-- [Members](https://gitlab.com/ssndental/clinicadentalssn.es/-/project_members) ⏩ Add your email with role `Maintainer`
-- Icons
-  - [General Settings](https://gitlab.com/ssndental/clinicadentalssn.es/edit) ⏩ `Project avatar`
-  - [Profile](https://gitlab.com/-/profile) ⏩ `Public avatar`
-- [Preferences](https://gitlab.com/-/profile/preferences)
-  - `Language` `Spanish`
-  - `First day of the week` `Moonday`
-- [Repository](https://gitlab.com/ssndental/clinicadentalssn.es) ⏩ `Clone ⏩ Visual Studio Code (HTTPS)` ⏩ select sansoul folder (not new folder)
-
-
-### Hosting
-
-
-#### If Netlify
-
-- `netlify.toml + package.json` must be existed
-- [Netlify new acount](https://app.netlify.com/signup/email)
-  - User name: `ssndental`
-  - Email: `ssndental@seacomoseo.com`
-  - Password: `var_pass`
-  - Verify and exit
-- `Skip personalization ⏩ New site from Git ⏩ Gitlab ⏩ Authorize ⏩ Select repo ⏩ Deploy site ⏩ Site settings`
-  - `Change site name ⏩ ssndental` and copy in `data/config.yml ⏩ netlify_name`
-  - Copy `API ID` in `data/config.yml ⏩ netlify_id`
-  - [Build hooks](https://app.netlify.com/sites/ssndental/settings/deploys#build-hooks) with = `build` name ⏩ copy and paste in `clinicadentalssn.es/clinicadentalssn.es.md` and [spreadsheet projects](https://docs.google.com/spreadsheets/d/1QIeT5VfUuXC3momIScZPf8ZPahV23tXVNshcf6DRipA/).
-- [Profile Avatar](https://app.netlify.com/user/settings#profile) ⏩ `Edit settings` ⏩ `Avatar`
-- [Connected Accounts](https://app.netlify.com/user/settings#connected-accounts) ⏩ `Edit settings` ⏩ `GitLab`: `Connect`
-
-
-#### If Cloudflare Pages
-
-- [Cloudflare new acount](https://dash.cloudflare.com/sign-up)
-  - User name: `ssndental`
-  - Email: `ssndental@seacomoseo.com`
-  - Verify and exit
-- Copy id by URL in `data/config.yml ⏩ cloudflare_id`
-- [Cloudflare Pages new project with Gitlab](https://dash.cloudflare.com/?to=/:account/pages/new/provider/gitlab)
-  - `Connect Gitlab` ⏩ `Authorize` ⏩ `Select a repository` ⏩ `Begin setup`
-  - `Project name` = `ssndental` and copy in `data/config.yml ⏩ cloudflare_project_name`
-  - `Framework preset` = `Hugo`
-  - `Build command` = `sh do build`
-  - `Build output directory` = `public`
-  - `Environment variables (advanced)` ⏩ `Add variable` ⏩ `HUGO_VERSION` = `0.92.2`
-  - `Save and Deploy`
-- [Language Preference](https://dash.cloudflare.com/profile#language-preference-card)
-
-
-### CMS
-
-- [`Gitlab ⏩ Edit profile ⏩ Access Token`](https://gitlab.com/-/profile/personal_access_tokens)
-  - `Token name`: `netlify-identity`
-  - `Expiration date`: remove
-  - `Select scopes`: check `api`, `read_api`, `read_repository` and `write_repository`
-  - `Create personal access token` ⏩ copy `our new personal access token`
-- If Identity Access
-  - [`Netlify ⏩ Site ⏩ Settings ⏩ Identity`](https://app.netlify.com/sites/ssndental/settings/identity) ⏩ `Enable Identity`
-    - [`Git Gateway`](https://app.netlify.com/sites/ssndental/settings/identity#git-gateway) ⏩ `Edit settings` ⏩ Paste the gitlab code copied in `GitLab personal access token ⏩ Save`
-    - [Registration preferences](https://app.netlify.com/sites/ssndental/settings/identity#registration-preferences) ⏩ Edit settings ⏩ Invite only ⏩ Save
-    - [`External providers`](https://app.netlify.com/sites/ssndental/settings/identity#external-providers) ⏩ Add provider ⏩ Gitlab ⏩ Use default configuration ⏩ Enable GitLab
-  - [`Netlify ⏩ Site ⏩ Identity`](https://app.netlify.com/sites/ssndental/identity) ⏩ Invite users ⏩ email `ssndental@seacomoseo.com` (and other if you want) ⏩ Check email from `no-reply@netlify.com` ⏩ Accept the invite ⏩ Add `/admin/` in the URL between `/` and `#` ⏩ Add password `var_pass`
-- If Cloudflare Pages Access
-  - ...........................................................
-
-
 ### Local
 
 - Star Git LFS: `git lfs install`
@@ -169,62 +83,6 @@
 ### After client validate web
 
 
-#### Domain
-
-- If Netlify
-  - [`Domain Management / settings`](https://app.netlify.com/sites/ssndental/settings/domain)
-  - `Add custom domain`
-  - `Check DNS configuration` Copy
-  - Add `DNS Records` copied from Netlify to Domain gestor:
-    - From: `clinicadentalssn.es`
-      DNS Record: `ALIAS`, `ANAME` or `flattened CNAME`
-      To: `apex-loadbalancer.netlify.com`
-    - From: `clinicadentalssn.es`
-      DNS Record: `A`
-      To: `75.2.60.5`
-    - From: `www`
-      DNS Record: `CNAME`
-      To: `ssndental.netlify.app.`
-    - Maybe you need to eliminate the previous records with similar names
-  - `Verify DNS configuration`
-  - If it does not work after a while, try `Set as main domain` in the `www` version and also in te `nowww` version
-- If Cloudflare Pages
-  - [Custom domains](https://dash.cloudflare.com/?to=/:account/pages/view/ssndental/domains)
-  - `Set up a custom domains`
-  - `clinicadentalssn.es`
-  - `Continue`
-  - `Activate domain` (if `Begin DNS transfer` end)
-  - Repeat with `www.clinicadentalssn.es`
-  - ...........................................................
-
-
-#### Forms
-
-- If Netlify Form
-  - Don't need configure nothing! Build like you want in local or with CMS
-  - [`Netlify ⏩ Site ⏩ Forms ⏩ Form Notifications`](https://app.netlify.com/sites/ssndental/settings/forms#form-notifications) ⏩ `Add notification ⏩ Email notification ⏩ Email to Notify`
-    - `Email to notify` = Emails of collaborators that want receive submissions
-    - `Custom email subject line` = `Formulario de contacto de clinicadentalssn.es`
-    - `Save`
-  - Submissions: [`Netlify site ⏩ Forms`](https://app.netlify.com/sites/ssndental/forms)
-- If Cloudflare Workers
-  - ...........................................................
-- [formsubmit.co](https://formsubmit.co/)
-- If Google Form: [Tutorial](https://seacomoseo.com/instrucciones/#google-forms)
-
-
-#### [Google Analytics](https://analytics.google.com/)
-
-- `Admin ⏩ Libre acount ⏩ New property ⏩ ...` copy ID
-- `data/config.yml ⏩ google_analytics` ⏩ paste ID
-- `Ajustes de datos`
-  - `Recogida de datos`
-    - `Recogida de datos de Google signals ⏩ Empezar`
-    - `Consentimiento de recogida de datos de usuario` ⏩ Check
-  - `Conservación de datos ⏩ Conservación de datos de eventos ⏩ 14 meses ⏩ Guardar`
-- `Conversiones ⏩ Nuevo evento de conversión ⏩ Nombre de evento nuevo` ⏩ add `contact_click` and `contact_form_submit`
-
-
 #### [Google Search Console](https://search.google.com/search-console)
 
 - Add property
@@ -240,31 +98,6 @@
 - Add sitemap.xml
 
 
-#### [Google My Business](https://business.google.com/)
-
-- `Add company ⏩ ...` ⏩ whait 13 days to receive postal and insert code to verify
-
-
-#### [Disqus](https://disqus.com/)
-
-- `data/config.yml ⏩ disqus`
-
-
-#### Collaborators
-
-- [Google Analytics](https://analytics.google.com/) ⏩ `Admin ⏩ Libre acount ⏩ Site ⏩ Property access management ⏩ Add users` ⏩ Add emails of collaborators with role `Reader` or `Admin`.
-- [Google Search Console](https://search.google.com/search-console) ⏩ `Site ⏩ Settings ⏩ Users and permissions ⏩ Add user` Add emails of collaborators with `Full` permission
-- [Google My Business](https://business.google.com/)
-  - `Site ⏩ Users ⏩ Add users` ⏩ Add emails of collaborators with role `Owner`
-
-
-##### Services Layout
-
-1. [Servicios clinicadentalssn.es](https://drive.google.com/file/d/1trq28fMfEVwoZOk4ue0tJzAJDZtj64BK) ⏩ `File ⏩ Make a copy` ⏩ Select client directory.
-1. Change the info.
-1. `Share` ⏩ Add emails of collaborators with `Editor` permission.
-
-
 ##### Delivery
 
 Send to all collaborators next:
@@ -272,30 +105,3 @@ Send to all collaborators next:
 ```
 *ENTREGA WEB clinicadentalssn.es:* https://seacomoseo.com/entrega/
 ```
-
-## GADS
-
-### GA4
-
-- Vincular:
-  - `Herramientas y configuración`
-  - `Cuentas vinculadas`
-  - `Google Analytics (GA4) & Firebase ⏩ Detalles`
-  - Buscar proyecto y ⏩ `Vincular`
-- Importar conversiones:
-  - `Herramientas y configuración`
-  - `Medición`
-  - `Conversiones`
-  - `Nueva acción de conversión`
-  - `Importar`
-  - `Propiedades de Google Analytics 4`
-  - `Web`
-  - `Continuar`
-  - Seleccionar `contact_click` y `contact_form_submit`
-  - `Importar y continuar`
-- Cambiar a `Maximizar conversiones`
-  - `Campañas`
-  - `⚙️`
-  - `Puja`
-  - `Cambiar estrategia de puja`
-  - `¿En qué quieres centrarte? ⏩ Conversiones`

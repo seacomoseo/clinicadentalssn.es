@@ -36,7 +36,7 @@ rows:
     addressLocality: Beniel
     addressRegion: Murcia
     addressCountry: España
-    coordinates: '{"type":"Point","coordinates":[-0.9999795,38.0446878]}'
+    coordinates: '{"type":"Point","coordinates":[-1.0002114,38.0445666]}'
   form:
     fill_inputs: true
     items:
