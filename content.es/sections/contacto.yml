@@ -25,13 +25,13 @@ rows:
   - type: whatsapp
     label: 636 57 10 44
     button: link
-  - type: mail
-    label: Clinicasng@gmail.com
-    full: true
+  # - type: mail
+  #   label: Clinicasng@gmail.com
+  #   full: true
   - type: address
     active: true
-    name: Clínica dental Susana Navarro
-    streetAddress: Av. Juan Pablo II, 2
+    name: Clínica Dental Susana Navarro
+    streetAddress: Av. Juan Pablo II, 2, Bajo 2
     postalCode: 30130
     addressLocality: Beniel
     addressRegion: Murcia

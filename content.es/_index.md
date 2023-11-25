@@ -1,8 +1,8 @@
 ---
 title: Inicio
-title_seo: Tema SanSoul de Hugo
+title_seo: Clínica Dental Susana Navarro
 slug: inicio
-description: llll➤ SanSoul es un tema de Hugo con alma para webs de servicios ✅ por lorensansol.
+description: Blanqueamiento Dental, Carillas, Prótesis, Extracciones, Férulas de Descarga, Ortodoncia convencional e invisible, Implantes dentales... ✅ ¡Y mucho más!
 image: fondo.jpg
 draft: false
 noindex: false
