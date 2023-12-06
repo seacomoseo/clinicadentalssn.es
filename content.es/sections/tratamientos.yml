@@ -36,24 +36,57 @@ rows:
     image: endodoncia.jpg
   - title: Periodoncia
     link: '#tratamiento-periodoncia'
-    description: |
-      dfgdgh
+    description: '
+
+
+
+      '
     image: periodoncia.jpg
-  - title: Ortodoncia
-    description: |
-      sdfsdf
-  - title: Implantología
-    description: |
-      fghdfgdfg
-  - title: Ortopediatría
-    description: |
-      fgfgdfg
+  - title: Ortodoncia y Ortopedia
+    description: '
+
+
+
+      '
+    link: '#ortodoncia-ortopedia'
+    image: ortodoncia-ortopediad.jpg
+  - title: Implantología y Cirugía
+    description: '
+
+
+
+      '
+    link: '#implantologia-cirugia'
+    image: implantes.jpg
+  - title: Odontopediatría
+    description: '
+
+
+
+      '
+    link: '#odontopediatria'
+    image: odontopediatria.jpg
   - title: Estética Dental
-    description: |
-      fdgdfg
+    description: '
+
+
+
+      '
+    link: '#estetica-dental'
+    image: estetica-dental.mp4#mute
   - title: Prótesis
-    description: |
-      fgfdg
+    description: '
+
+
+
+      '
+    link: '#protesis'
+    image: protesis.jpg
   - title: Ácido Hialurónico
-    description: |
-      DGFDFG
+    description: '
+
+
+
+      '
+    link: '#acido-hialuronico'
+    image: acidohilauronico.jpg

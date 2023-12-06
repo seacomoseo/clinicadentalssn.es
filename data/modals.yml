@@ -11,7 +11,7 @@ image_min: null
 image_max: null
 image_align: ''
 uppercase: true
-underline: false
+underline: true
 align: ''
 color: ''
 gradient: ''
