@@ -1,12 +1,8 @@
 title: Tratamientos
 subtitle: ¿Como podemos ayudarte?
 icon: tooth
-image: ''
-bg: ''
 color: main-dark
 size: md
-more:
-  opacity: 40
 rows:
 - type: columns
   design:
@@ -15,78 +11,31 @@ rows:
     color: white
     ratio: 1x1
     gradient: main-light
-    border: ''
   items:
   - title: Odontología Conservadora
     image: mordida-abierta.jpg
     link: '#tratamiento-odontologia-conservadora'
-    description: '
-
-
-
-      '
   - title: Endodoncia
     link: '#tratamiento-endodoncia'
-    description: '
-
-
-
-      '
-    bg: ''
     image: endodoncia.jpg
   - title: Periodoncia
     link: '#tratamiento-periodoncia'
-    description: '
-
-
-
-      '
     image: periodoncia.jpg
   - title: Ortodoncia y Ortopedia
-    description: '
-
-
-
-      '
     link: '#ortodoncia-ortopedia'
     image: ortodoncia-ortopediad.jpg
   - title: Implantología y Cirugía
-    description: '
-
-
-
-      '
     link: '#implantologia-cirugia'
     image: implantes.jpg
   - title: Odontopediatría
-    description: '
-
-
-
-      '
     link: '#odontopediatria'
     image: odontopediatria.jpg
   - title: Estética Dental
-    description: '
-
-
-
-      '
     link: '#estetica-dental'
-    image: estetica-dental.mp4#mute
+    image: estetica-dental.webm#mute
   - title: Prótesis
-    description: '
-
-
-
-      '
     link: '#protesis'
     image: protesis.jpg
   - title: Ácido Hialurónico
-    description: '
-
-
-
-      '
     link: '#acido-hialuronico'
     image: acidohilauronico.jpg

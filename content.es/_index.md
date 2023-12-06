@@ -5,7 +5,7 @@ slug: inicio
 description: Blanqueamiento Dental, Carillas, Prótesis, Extracciones, Férulas de
   Descarga, Ortodoncia convencional e invisible, Implantes dentales... ✅ ¡Y
   mucho más!
-image: fondo.jpg
+image: logo.png
 draft: false
 noindex: false
 translationKey: home
