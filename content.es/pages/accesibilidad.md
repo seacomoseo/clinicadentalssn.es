@@ -13,7 +13,7 @@ translationKey: accesibilidad
 Declaración de Accesibilidad
 {.h1 .uppercase}
 
-**{{< legal name >}}** se ha comprometido a hacer accesibles su sitios web de conformidad con el [Real Decreto 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público](https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699 "nofollow").
+**{{% legal name %}}** se ha comprometido a hacer accesibles su sitios web de conformidad con el [Real Decreto 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público](https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699 "nofollow").
 
 ## Situación de cumplimiento
 
@@ -38,11 +38,11 @@ El contenido que se recoge a continuación no es accesible por lo siguiente:
 
 ## Preparación de la presente declaración de accesibilidad
 
-La presente declaración fue preparada el **{{< date >}}**.
+La presente declaración fue preparada el **{{% date %}}**.
 
 El método empleado para la presente declaración ha sido una autoevaluación realizada por la propia empresa con el soporte de la [Herramienta IRA (Informe de Revisión de Accesibilidad)](https://herramienta-ira.administracionelectronica.gob.es/ "nofollow") del Observatorio de Accesibilidad.
 
-Última revisión de la declaración: **{{< date >}}**.
+Última revisión de la declaración: **{{% date %}}**.
 
 ## Observaciones y datos de contacto
 
