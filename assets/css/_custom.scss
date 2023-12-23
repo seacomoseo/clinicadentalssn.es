@@ -25,6 +25,9 @@
   .subtitle {             @include show-up(2); }
   .description p {        @include show-up(3); }
   .description .buttons { @include show-up(4); }
+  .bg-figure-image img {
+    object-position: 80% 30%;
+  }
 }
 .slogan {
   margin-top: 1em;
