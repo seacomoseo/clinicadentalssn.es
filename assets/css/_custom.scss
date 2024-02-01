@@ -21,10 +21,8 @@
   @mixin show-from($delay) {
     animation: show-from .5s (.5 + .25s * $delay) both;
   }
-  .section__title {       @include show-from(1); }
-  .subtitle {             @include show-from(2); }
-  .description p {        @include show-from(3); }
-  .description .buttons { @include show-from(4); }
+  .description p {        @include show-from(1); }
+  .description .buttons { @include show-from(2); }
   .bg-figure-image img {
     object-position: 80% 30%;
   }
@@ -32,4 +30,10 @@
 .slogan {
   margin-top: 1em;
   font-size: 1.25em;
+}
+#resenas {
+  .section__title h2,
+  .subtitle {
+    color: $text;
+  }
 }

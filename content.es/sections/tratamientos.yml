@@ -2,15 +2,16 @@ title: Tratamientos
 subtitle: ¿Como podemos ayudarte?
 icon: tooth
 color: main-dark
-size: md
 rows:
 - type: columns
   design:
-    pill: true
-    num: 4
+    num: 5
     color: white
     ratio: 1x1
     gradient: main-light
+    # pill: true
+    card: true
+    button: hide
   items:
   - title: Odontología Conservadora
     image: mordida-abierta.jpg

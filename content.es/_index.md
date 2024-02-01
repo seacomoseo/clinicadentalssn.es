@@ -1,10 +1,8 @@
 ---
 title: Inicio
-title_seo: Clínica Dental Susana Navarro
+title_seo: Clínica Dental Susana Navarro 【 Dentista en Beniel 】
 slug: inicio
-description: Blanqueamiento Dental, Carillas, Prótesis, Extracciones, Férulas de
-  Descarga, Ortodoncia convencional e invisible, Implantes dentales... ✅ ¡Y
-  mucho más!
+description: Blanqueamiento Dental, Carillas, Prótesis, Extracciones, Férulas de Descarga, Ortodoncia convencional e invisible, Implantes dentales... ✅ ¡Y mucho más!
 image: logo.png
 draft: false
 noindex: false
@@ -24,7 +22,7 @@ sections:
   - protesis
   - acido-hialuronico
 - file: por-que-nosotros
-- file: instalaciones
+- file: galeria
 - file: resenas
 - file: contacto
 ---

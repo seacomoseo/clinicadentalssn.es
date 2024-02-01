@@ -1,9 +1,12 @@
+anchor: Clínica Dental y Dentista en Beniel
 image: logo-w.svg
 bg: fondo.jpg
 color: main-dark
 gradient: main-light
 description: |
-  [btn icon-plus Más](#principal)
+  Tu Dentista de confianza en Beniel
+
+  [btn-light icon-plus Más](#principal)
 more:
   full_screen: true
   image_min: 18

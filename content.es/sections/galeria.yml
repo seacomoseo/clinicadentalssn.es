@@ -1,8 +1,8 @@
-title: Instalaciones
-subtitle: ¡ Bienvenido a nuestra Clínica !
-icon: house-chimney-medical
+title: Galería
+subtitle: ¡Bienvenido a nuestra Clínica!
+icon: aperture
 bg: sala-de-espera.jpg
-color: white
+color: dark
 more:
   opacity: 50
 rows:
@@ -12,7 +12,7 @@ rows:
     num: 3
     grayscale: false
     alt: true
-    wrap: true
+    wrap: false
     gap: true
     cover: true
     link: ''
