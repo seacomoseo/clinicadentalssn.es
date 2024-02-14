@@ -1,32 +1,25 @@
 title: Galería
-subtitle: ¡Bienvenido a nuestra Clínica!
-icon: aperture
-bg: sala-de-espera.jpg
-color: dark
+subtitle: De fotos
+# icon: aperture
 more:
-  opacity: 50
+  padding_hide: true
 rows:
 - type: gallery
   design:
-    max: 99
-    num: 3
+    num: 6
     grayscale: false
-    alt: true
+    alt: false
     wrap: false
-    gap: true
+    gap: false
     cover: true
-    link: ''
-    ofuscate: false
+    link: /galeria/
+    ofuscate: true
     font_alt: false
+    # button: hide
   images:
-  - cepillos.jpg
-  - acidohilauronico.jpg
-  - sala-de-espera.jpg
-  - fondo.jpg
-  - carillas-composite.jpg
-  - sala-tratamientos-dos.jpg
-  - carillas-porcelana.jpg
-  - recepcion.jpg
-  - mordida-abierta.jpg
-  - productos.jpg
-  - desgaste.jpg
+  - fotos/2023-11-21--13-55-20.jpg
+  - fotos/2023-11-21--13-55-43.jpg
+  - fotos/2023-11-21--13-56-10.jpg
+  - fotos/2023-11-21--14-01-30.jpg
+  - fotos/2023-11-21--14-03-29.jpg
+  - fotos/2023-11-21--14-08-47.jpg

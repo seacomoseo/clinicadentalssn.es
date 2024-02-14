@@ -1,5 +1,5 @@
 icons:
-  type: light
+  type: solid
   emojis: ''
   emojis_default: false
 fonts:
@@ -24,18 +24,18 @@ fonts:
     italic: false
     line-height: 1.25
     top: 0
-  blockquote_cursive: false
+  blockquote_cursive: true
 colors:
   main:
-    color: '#0001ec'
+    color: '#7a7669'
     light: '#fff'
     dark: '#fff'
     contrast: text
   alt:
-    color: '#ff9b42'
+    color: '#fff'
     light: '#fff'
     dark: '#fff'
-    contrast: text
+    contrast: all
   link:
     color: '#637d96'
     light: '#fff'
@@ -43,9 +43,9 @@ colors:
     contrast: text
   base:
     white: '#fff'
-    light: '#d9e5d6'
-    grey: '#eddea4'
-    dark: '#7a7669'
+    light: '#eee'
+    grey: '#767676'
+    dark: '#282525'
     black: '#000'
 rounded:
   radius: 0.33
@@ -53,8 +53,8 @@ rounded:
 buttons:
   sides_round: false
   icon_circle: true
-  deep: true
-  outline: true
+  deep: false
+  outline: false
   font_base: false
 shadow:
   left: 0.15

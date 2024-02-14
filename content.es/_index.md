@@ -9,18 +9,18 @@ noindex: false
 translationKey: home
 sections:
 - file: header
-- file: nosotros
 - file: tratamientos
   modals:
-  - tratamiento-odontologia-conservadora
-  - tratamiento-endodoncia
-  - tratamiento-periodoncia
+  - odontologia-conservadora
+  - endodoncia
+  - periodoncia
   - ortodoncia-ortopedia
   - implantologia-cirugia
   - odontopediatria
   - estetica-dental
   - protesis
   - acido-hialuronico
+- file: nosotros
 - file: por-que-nosotros
 - file: galeria
 - file: resenas

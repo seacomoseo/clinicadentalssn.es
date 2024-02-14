@@ -1,0 +1,38 @@
+title: Galería
+subtitle: Fotos de nuestra clínica
+# color: link-dark
+more:
+  padding_hide: true
+rows:
+- type: gallery
+  design:
+    num: 2
+    alt: true
+    wrap: false
+    gap: true
+    cover: true
+    grayscale: false
+    button: hide
+  images:
+  - fotos/2023-11-21--13-55-11.jpg
+  - fotos/2023-11-21--13-55-20.jpg
+  - fotos/2023-11-21--13-55-26.jpg
+  - fotos/2023-11-21--13-55-43.jpg
+  - fotos/2023-11-21--13-56-10.jpg
+  - fotos/2023-11-21--13-58-42.jpg
+  - fotos/2023-11-21--14-01-30.jpg
+  - fotos/2023-11-21--14-01-51.jpg
+  - fotos/2023-11-21--14-02-31.jpg
+  - fotos/2023-11-21--14-02-56.jpg
+  - fotos/2023-11-21--14-03-29.jpg
+  - fotos/2023-11-21--14-08-47.jpg
+  - fotos/2023-11-21--14-09-25.jpg
+  - fotos/2023-11-21--14-15-30.jpg
+  - fotos/2023-11-21--14-39-36.jpg
+  - fotos/2023-11-21--14-52-37.jpg
+  - fotos/2023-11-21--14-52-43.jpg
+  - fotos/2023-11-21--15-14-40.jpg
+  - fotos/2023-11-21--15-15-10.jpg
+  - fotos/2023-11-21--15-15-21.jpg
+  - fotos/2023-11-21--15-15-29.jpg
+  - fotos/2023-11-21--14-00-45.jpg

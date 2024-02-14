@@ -1,17 +1,31 @@
-anchor: Clínica Dental y Dentista en Beniel
-image: logo-w.svg
-bg: fondo.jpg
-color: main-dark
-gradient: main-light
-description: |
-  Tu Dentista de confianza en Beniel
+anchor: Clínica Dental y Dentista en Beniel, Murcia
+# image: logo-alt.svg
+# bg: video.mp4
+# color: light
+# gradient: main-light
+# description: |
+#   Donde tu salud bucal es nuestra prioridad
+#   {.font-base .h5}
 
-  [btn-light icon-plus Más](#principal)
+#   [btn Más](#principal)
+# Tu Dentista de confianza en Beniel, Murcia
+# size: md
 more:
   full_screen: true
-  image_min: 18
-  image_max: 20
-  parallax: true
-  gradient_type: linear-r
-  button: alt
-  opacity: 40
+  # image_min: 18
+  # image_max: 35
+rows:
+- type: columns
+  design:
+    align_y: center
+    gap: 5
+  items:
+  - span: 2
+    image: logo-alt.svg
+    description: |
+      Donde tu salud bucal es nuestra prioridad
+      {.font-base .h5}
+
+      [btn Más](#principal)
+  - image: video.mp4
+    # ratio: 3x4

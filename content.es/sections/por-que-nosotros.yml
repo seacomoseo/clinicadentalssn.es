@@ -1,17 +1,15 @@
 title: ¿Por qué Nosotros?
 subtitle: Te lo ponemos fácil
-icon: star
-color: white
-gradient: main-light
-more:
-  container_opacity: 20
+# icon: star
+size: md
 rows:
 - type: steps
   design:
     underline: true
+    # border: light
   items:
   - title: Enfoque Personalizado
-    icon: heart-circle-check
+    icon: tooth
     description: |
       Priorizamos tu bienestar y comodidad. 
 
@@ -19,7 +17,7 @@ rows:
 
       Elegimos cuidadosamente los materiales de la más alta calidad, garantizando que tu sonrisa perdure en el tiempo.
   - title: Tecnología Avanzada
-    icon: circle-bolt
+    icon: microscope
     description: |
       Equipamiento de última generación.
 
@@ -27,17 +25,13 @@ rows:
 
       Tratamientos innovadores disponibles.
   - title: Atención Integral
-    icon: message-code
+    icon: hands-holding-heart
     description: |+
       Especialistas en diversas áreas.
 
       Variedad de servicios en un solo lugar.
 
       Coordinación de atención para tus necesidades.
-
-
-
-
   - title: Ambiente Acogedor y Sereno
     icon: house-chimney-heart
     description: |+
@@ -46,8 +40,3 @@ rows:
       Proporcionamos comodidades de alta calidad para tu comodidad.
 
       Nuestro equipo de profesionales se caracteriza por su calidez y empatía.
-
-
-
-
-...

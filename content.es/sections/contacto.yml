@@ -1,9 +1,7 @@
 title: Contacto
 subtitle: ¿En qué podemos ayudarte?
 button: link
-icon: paper-plane
-color: main-light
-gradient: alt-light
+# icon: paper-plane
 size: sm
 rows:
 - type: contact
@@ -26,7 +24,7 @@ rows:
     label: 636 57 10 44
     button: link
   # - type: mail
-  #   label: Clinicasng@gmail.com
+  #   label: clinicasng@gmail.com
   #   full: true
   - type: address
     active: true
@@ -38,7 +36,7 @@ rows:
     addressCountry: España
     coordinates: '{"type":"Point","coordinates":[-1.0002114,38.0445666]}'
   form:
-    fill_inputs: true
+    fill_inputs: false
     items:
     - type: text
       name: Nombre

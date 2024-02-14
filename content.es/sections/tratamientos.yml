@@ -1,42 +1,56 @@
 title: Tratamientos
-subtitle: ¿Como podemos ayudarte?
-icon: tooth
-color: main-dark
+subtitle: Cómo podemos ayudarte
+# icon: tooth
 rows:
 - type: columns
   design:
     num: 5
     color: white
-    ratio: 1x1
-    gradient: main-light
-    # pill: true
-    card: true
-    button: hide
+    underline: true
+    licon: none
   items:
   - title: Odontología Conservadora
-    image: mordida-abierta.jpg
-    link: '#tratamiento-odontologia-conservadora'
+    description: Preservamos tu sonrisa natural combatiendo caries con arte y precisión
+    link: '#odontologia-conservadora'
+    icon: iconos-odontologia-conservadora
+    # image: mordida-abierta.jpg
   - title: Endodoncia
-    link: '#tratamiento-endodoncia'
-    image: endodoncia.jpg
+    description: Salvamos dientes comprometidos, devolviéndoles salud y funcionalidad desde la raíz
+    link: '#endodoncia'
+    icon: iconos-endodoncia
+    # image: endodoncia.jpg
   - title: Periodoncia
-    link: '#tratamiento-periodoncia'
-    image: periodoncia.jpg
+    description: Cuidado experto de tus encías para una base sólida y sonrisas duraderas
+    link: '#periodoncia'
+    icon: teeth
+    # image: periodoncia.jpg
   - title: Ortodoncia y Ortopedia
+    description: Diseñamos y adaptamos sonrisas armoniosas y funcionales
     link: '#ortodoncia-ortopedia'
-    image: ortodoncia-ortopediad.jpg
+    icon: iconos-ortodoncia
+    # image: ortodoncia-ortopediad.jpg
   - title: Implantología y Cirugía
+    description: Reconstruimos sonrisas con resultados naturales y duraderos
     link: '#implantologia-cirugia'
-    image: implantes.jpg
+    icon: iconos-implantologia
+    # image: implantes.jpg
   - title: Odontopediatría
+    description: Cuidado dental infantil divertido y amigable, para pequeñas sonrisas brillantes
     link: '#odontopediatria'
-    image: odontopediatria.jpg
+    icon: iconos-odontopediatria
+    # image: odontopediatria.jpg
   - title: Estética Dental
+    description: Transformamos sonrisas con arte, para reflejar tu belleza interior
     link: '#estetica-dental'
-    image: estetica-dental.webm#mute
+    icon: iconos-estetica
+    # image: estetica-dental.webm#mute
   - title: Prótesis
+    description: Restauramos tu sonrisa y funcionalidad con soluciones a medida y de vanguardia
     link: '#protesis'
-    image: protesis.jpg
+    icon: teeth-open
+    # image: protesis.jpg
   - title: Ácido Hialurónico
+    description: Rejuvenecemos sonrisas y rostros, devolviendo frescura a tu expresión
     link: '#acido-hialuronico'
-    image: acidohilauronico.jpg
+    icon: lips
+    # image: acidohilauronico.jpg

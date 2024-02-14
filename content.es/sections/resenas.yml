@@ -1,32 +1,40 @@
 title: Reseñas
 subtitle: ¿Qué dicen de nosotros?
-icon: comment
-bg: whatsapp-image-2023-10-23-at-18.21.14-2-.jpeg
-color: light
-gradient: alt-light
+# icon: comment
 rows:
 - type: reviews
   design:
     num: 3
     color: white
     slider: true
+    icon: ditto
   items:
+  - title: Nogo I.
+    description: |
+      Voy con dolor en los dientes y vuelvo a casa con una sonrisa porque mis dolores desaparecen y el servicio en este lugar es increíble.
+
+      Familia muy amigable.
+
+      Recomiendo esta clínica si todos tienen problemas con sus dientes.
   - title: Novahomes
     description: |
-      Hace 2 mesesMerece sin duda la pena desplazarse a esta clínica dental en Beniel ( Murcia), tienen las mejores y más novedosas técnicas en estética dental con amabilidad y profesionalidad. Los resultados son espectaculares 😌
+      Merece sin duda la pena desplazarse a esta clínica dental en Beniel (Murcia), tienen las mejores y más novedosas técnicas en estética dental con amabilidad y profesionalidad.
+
+      Los resultados son espectaculares 😌
   - title: Laida Pérez
     description: |
-      Es la única clínica dental a la que no me da miedo ir, super profesionales es increible como trabajan y como te tratan, desde luego ya está en mi agenda, se acabo el miedo al dolor!
+      Es la única clínica dental a la que no me da miedo ir, super profesionales.
+
+      Es increible como trabajan y como te tratan, desde luego ya está en mi agenda, se acabo el miedo al dolor!
   - title: Vicen Alcolea
     description: |
-      Encantada de ir! Son muy amables y unas auténticas profesionales. Se acabo el miedo al dentista 😊😜
+      Encantada de ir! Son muy amables y unas auténticas profesionales.
+
+      Se acabo el miedo al dentista 😊😜
   - title: Fernando Rayos
     description: |
       Magníficos profesionales y un trato excelente lo recomiendo 100%
 - type: columns
   items:
   - description: |
-      ¡Hay más aquí! ¡Añade la tuya!
-      {.subtitle}
-
-      [btn icon-star Google](https://g.page/r/CQRwm-No9XX_EAI/review "noindex")
+      [btn icon-star Más reseñas](https://g.page/r/CQRwm-No9XX_EAI/review "noindex")

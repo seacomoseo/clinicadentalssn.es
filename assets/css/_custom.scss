@@ -1,39 +1,61 @@
-// Header Animations
-
-@keyframes logo-drop {
-  0% {
-    transform: scale(3);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
+.subtitle {
+  font-size: 1.5em;
 }
+
+// Header
 #body-inicio #header {
-  .image {
-    // svg, g, path {
-    //   fill: var(--text);
-    // }
-    transform-origin: center;
-    animation: logo-drop 1s 0s both;
-  }
   @mixin show-from($delay) {
     animation: show-from .5s (.5 + .25s * $delay) both;
   }
-  .description p {        @include show-from(1); }
-  .description .buttons { @include show-from(2); }
-  .bg-figure-image img {
-    object-position: 80% 30%;
+  #logo-clinica {         @include show-from(0); }
+  #logo-dental {          @include show-from(1); }
+  #logo-susana {          @include show-from(2); /* --show-from: translateX(-3rem); */ }
+  #logo-icon-s {          @include show-from(2); /* --show-from: translateX(-3rem); */ }
+  #logo-navarro {         @include show-from(3); /* --show-from: translateX(3rem); */ }
+  #logo-icon-n {          @include show-from(3); /* --show-from: translateX(3rem); */ }
+  .description p {        @include show-from(4); }
+  .description .buttons { @include show-from(5); }
+  .column--item-2 {       @include show-from(6); }
+}
+
+
+// Sections
+
+.section__title {
+  // h3,
+  h2 {
+    --title: var(--link)
   }
 }
-.slogan {
-  margin-top: 1em;
-  font-size: 1.25em;
+.section__header .subtitle {
+  --subtitle: var(--main)
 }
-#resenas {
-  .section__title h2,
-  .subtitle {
-    color: $text;
+
+
+// Trata mientos
+
+#tratamientos {
+  .column__header {
+    margin-bottom: -.5em;
   }
+}
+
+
+// Steps
+
+.step__content h3 {
+  --title: var(--main);
+  &.underline:after {
+    --main: var(--link);
+  }
+}
+.step__figure {
+  --main: var(--link);
+}
+
+
+// Reviews
+
+.review__title {
+  --title: var(--main);
 }
